@@ -1,0 +1,48 @@
+2023-02-23 14:08:06 INFO::Writing function arguments to log file
+2023-02-23 14:08:06 DEBUG::Function arguments
+2023-02-23 14:08:06 DEBUG::Output folder: CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_taxa
+2023-02-23 14:08:06 DEBUG::Min Abundance: 0.000000
+2023-02-23 14:08:06 DEBUG::Min Prevalence: 0.100000
+2023-02-23 14:08:06 DEBUG::Normalization: TSS
+2023-02-23 14:08:06 DEBUG::Transform: LOG
+2023-02-23 14:08:06 DEBUG::Analysis method: LM
+2023-02-23 14:08:06 DEBUG::Max significance: 0.250000
+2023-02-23 14:08:06 DEBUG::Random effects:
+2023-02-23 14:08:06 DEBUG::Fixed effects: Confinement,Time_point
+2023-02-23 14:08:06 DEBUG::Correction method: BH
+2023-02-23 14:08:06 DEBUG::Standardize: TRUE
+2023-02-23 14:08:06 DEBUG::Cores: 1
+2023-02-23 14:08:06 INFO::Verifying options selected are valid
+2023-02-23 14:08:06 INFO::Determining format of input files
+2023-02-23 14:08:06 INFO::Input format is data samples as columns and metadata samples as rows
+2023-02-23 14:08:06 DEBUG::Transformed data so samples are rows
+2023-02-23 14:08:06 DEBUG::The following samples were found to have features but no metadata. They will be removed. OPcombt1t2t3
+2023-02-23 14:08:06 DEBUG::A total of 15 samples were found in both the data and metadata
+2023-02-23 14:08:06 DEBUG::Reordering data/metadata to use same sample ordering
+2023-02-23 14:08:06 INFO::Formula for fixed effects: expr ~  Confinement + Time_point
+2023-02-23 14:08:06 INFO::Filter data based on min abundance and min prevalence
+2023-02-23 14:08:06 INFO::Total samples in data: 15
+2023-02-23 14:08:06 INFO::Min samples required with min abundance for a feature not to be filtered: 1.500000
+2023-02-23 14:08:06 INFO::Total filtered features: 0
+2023-02-23 14:08:06 INFO::Filtered feature names from abundance and prevalence filtering:
+2023-02-23 14:08:06 INFO::Total filtered features with variance filtering: 0
+2023-02-23 14:08:06 INFO::Filtered feature names from variance filtering:
+2023-02-23 14:08:06 INFO::Running selected normalization method: TSS
+2023-02-23 14:08:06 INFO::Applying z-score to standardize continuous metadata
+2023-02-23 14:08:06 INFO::Running selected transform method: LOG
+2023-02-23 14:08:06 INFO::Running selected analysis method: LM
+2023-02-23 14:08:06 INFO::Fitting model to feature number 1, chao1_Richness
+2023-02-23 14:08:06 INFO::Fitting model to feature number 2, camargo_evenness
+2023-02-23 14:08:06 INFO::Fitting model to feature number 3, pielou_evenness
+2023-02-23 14:08:06 INFO::Fitting model to feature number 4, simpson_evenness
+2023-02-23 14:08:06 INFO::Fitting model to feature number 5, evar_evenness
+2023-02-23 14:08:06 INFO::Fitting model to feature number 6, bulla_evenness
+2023-02-23 14:08:06 INFO::Fitting model to feature number 7, shannon
+2023-02-23 14:08:06 INFO::Fitting model to feature number 8, Bray_Curtis
+2023-02-23 14:08:06 INFO::Counting total values for each feature
+2023-02-23 14:08:06 INFO::Writing residuals to file CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_taxa/residuals.rds
+2023-02-23 14:08:06 INFO::Writing fitted values to file CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_taxa/fitted.rds
+2023-02-23 14:08:07 INFO::Writing all results to file (ordered by increasing q-values): CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_taxa/all_results.tsv
+2023-02-23 14:08:07 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_taxa/significant_results.tsv
+2023-02-23 14:08:07 INFO::Writing heatmap of significant results to file: CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_taxa/heatmap.pdf
+2023-02-23 14:08:07 INFO::Writing association plots (one for each significant association) to output folder: CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_taxa

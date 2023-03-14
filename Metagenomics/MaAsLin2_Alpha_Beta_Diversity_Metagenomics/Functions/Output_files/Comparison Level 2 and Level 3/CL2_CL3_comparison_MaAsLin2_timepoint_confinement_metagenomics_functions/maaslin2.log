@@ -1,0 +1,63 @@
+2023-02-23 14:21:43 INFO::Writing function arguments to log file
+2023-02-23 14:21:43 DEBUG::Function arguments
+2023-02-23 14:21:43 DEBUG::Output folder: CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_functions
+2023-02-23 14:21:43 DEBUG::Min Abundance: 0.000000
+2023-02-23 14:21:43 DEBUG::Min Prevalence: 0.100000
+2023-02-23 14:21:43 DEBUG::Normalization: TSS
+2023-02-23 14:21:43 DEBUG::Transform: LOG
+2023-02-23 14:21:43 DEBUG::Analysis method: LM
+2023-02-23 14:21:43 DEBUG::Max significance: 0.250000
+2023-02-23 14:21:43 DEBUG::Random effects:
+2023-02-23 14:21:43 DEBUG::Fixed effects: Confinement,Time_point
+2023-02-23 14:21:43 DEBUG::Correction method: BH
+2023-02-23 14:21:43 DEBUG::Standardize: TRUE
+2023-02-23 14:21:43 DEBUG::Cores: 1
+2023-02-23 14:21:43 INFO::Verifying options selected are valid
+2023-02-23 14:21:43 INFO::Determining format of input files
+2023-02-23 14:21:43 INFO::Input format is data samples as columns and metadata samples as rows
+2023-02-23 14:21:43 DEBUG::Transformed data so samples are rows
+2023-02-23 14:21:43 DEBUG::The following samples were found to have features but no metadata. They will be removed. OPcombt1t2t3
+2023-02-23 14:21:43 DEBUG::A total of 15 samples were found in both the data and metadata
+2023-02-23 14:21:43 DEBUG::Reordering data/metadata to use same sample ordering
+2023-02-23 14:21:43 INFO::Formula for fixed effects: expr ~  Confinement + Time_point
+2023-02-23 14:21:43 INFO::Filter data based on min abundance and min prevalence
+2023-02-23 14:21:43 INFO::Total samples in data: 15
+2023-02-23 14:21:43 INFO::Min samples required with min abundance for a feature not to be filtered: 1.500000
+2023-02-23 14:21:43 INFO::Total filtered features: 0
+2023-02-23 14:21:43 INFO::Filtered feature names from abundance and prevalence filtering:
+2023-02-23 14:21:43 INFO::Total filtered features with variance filtering: 0
+2023-02-23 14:21:43 INFO::Filtered feature names from variance filtering:
+2023-02-23 14:21:43 INFO::Running selected normalization method: TSS
+2023-02-23 14:21:43 INFO::Applying z-score to standardize continuous metadata
+2023-02-23 14:21:43 INFO::Running selected transform method: LOG
+2023-02-23 14:21:43 INFO::Running selected analysis method: LM
+2023-02-23 14:21:43 INFO::Fitting model to feature number 1, shannon
+2023-02-23 14:21:43 INFO::Fitting model to feature number 2, camargo_evenness
+2023-02-23 14:21:43 INFO::Fitting model to feature number 3, pielou_evenness
+2023-02-23 14:21:43 INFO::Fitting model to feature number 4, simpson_evenness
+2023-02-23 14:21:43 INFO::Fitting model to feature number 5, evar_evenness
+2023-02-23 14:21:43 INFO::Fitting model to feature number 6, bulla_evenness
+2023-02-23 14:21:43 INFO::Fitting model to feature number 7, chao1_richness
+2023-02-23 14:21:43 INFO::Fitting model to feature number 8, Bray_Curtis
+2023-02-23 14:21:43 INFO::Counting total values for each feature
+2023-02-23 14:21:43 INFO::Writing residuals to file CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_functions/residuals.rds
+2023-02-23 14:21:43 INFO::Writing fitted values to file CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_functions/fitted.rds
+2023-02-23 14:21:43 INFO::Writing all results to file (ordered by increasing q-values): CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_functions/all_results.tsv
+2023-02-23 14:21:43 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_functions/significant_results.tsv
+2023-02-23 14:21:43 INFO::Writing heatmap of significant results to file: CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_functions/heatmap.pdf
+2023-02-23 14:21:43 INFO::Writing association plots (one for each significant association) to output folder: CL2_CL3_comparison_MaAsLin2_timepoint_confinement_metagenomics_functions
+2023-02-23 14:21:43 INFO::Plotting associations from most to least significant, grouped by metadata
+2023-02-23 14:21:43 INFO::Plotting data for metadata number 1, Confinement
+2023-02-23 14:21:43 INFO::Creating boxplot for categorical data, Confinement vs shannon
+2023-02-23 14:21:43 INFO::Creating boxplot for categorical data, Confinement vs pielou_evenness
+2023-02-23 14:21:43 INFO::Creating boxplot for categorical data, Confinement vs evar_evenness
+2023-02-23 14:21:43 INFO::Creating boxplot for categorical data, Confinement vs bulla_evenness
+2023-02-23 14:21:44 INFO::Creating boxplot for categorical data, Confinement vs chao1_richness
+2023-02-23 14:21:44 INFO::Creating boxplot for categorical data, Confinement vs simpson_evenness
+2023-02-23 14:21:45 INFO::Plotting data for metadata number 2, Time_point
+2023-02-23 14:21:45 INFO::Creating scatter plot for continuous data, Time_point vs shannon
+2023-02-23 14:21:45 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2023-02-23 14:21:45 INFO::Creating scatter plot for continuous data, Time_point vs Bray_Curtis
+2023-02-23 14:21:45 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2023-02-23 14:21:45 INFO::Creating scatter plot for continuous data, Time_point vs chao1_richness
+2023-02-23 14:21:45 DEBUG::`geom_smooth()` using formula = 'y ~ x'
