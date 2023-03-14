@@ -10,9 +10,9 @@ Data tables:
 - all differential abundance test -> ANCOM, ANCOM2, ANCOM BC, aldex2, MaAsLin2 for Key taxa observation
   
 2) Metagenomics:
-- metagenomic data -> abricate output -> for CARD, PlasFlow
-- metagenomic data -> MEGAN: taxonomy output: taxonomy feature table, metadatafile and taxonomy file (after SRS                 normalization)
-- metagenomic data -> MEGAN: function output -> function feature table, metadatafile and SEED functions (after SRS             normalization)
+- Abricate output -> for CARD, PlasFlow
+- MEGAN taxonomy output: taxonomy feature table, metadatafile and taxonomy file (after SRS                 normalization)
+- MEGAN function output -> function feature table, metadatafile and SEED functions (after SRS             normalization)
 - MAGE -> EggNOG output
 - GRiD -> GRiD output file and metadata file
 - MaAsLin -> statistical output
