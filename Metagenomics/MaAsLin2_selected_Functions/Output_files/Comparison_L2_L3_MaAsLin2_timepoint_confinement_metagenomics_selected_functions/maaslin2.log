@@ -1,0 +1,49 @@
+2023-02-23 23:58:50 INFO::Writing function arguments to log file
+2023-02-23 23:58:50 DEBUG::Function arguments
+2023-02-23 23:58:50 DEBUG::Output folder: Comparison_L2_L3_MaAsLin2_timepoint_confinement_metagenomics_selected_functions
+2023-02-23 23:58:50 DEBUG::Min Abundance: 0.000000
+2023-02-23 23:58:50 DEBUG::Min Prevalence: 0.100000
+2023-02-23 23:58:50 DEBUG::Normalization: TSS
+2023-02-23 23:58:50 DEBUG::Transform: LOG
+2023-02-23 23:58:50 DEBUG::Analysis method: LM
+2023-02-23 23:58:50 DEBUG::Max significance: 0.250000
+2023-02-23 23:58:50 DEBUG::Random effects:
+2023-02-23 23:58:50 DEBUG::Fixed effects: Confinement,Time_point
+2023-02-23 23:58:50 DEBUG::Correction method: BH
+2023-02-23 23:58:50 DEBUG::Standardize: TRUE
+2023-02-23 23:58:50 DEBUG::Cores: 1
+2023-02-23 23:58:50 INFO::Verifying options selected are valid
+2023-02-23 23:58:50 INFO::Determining format of input files
+2023-02-23 23:58:50 INFO::Input format is data samples as rows and metadata samples as rows
+2023-02-23 23:58:50 DEBUG::A total of 15 samples were found in both the data and metadata
+2023-02-23 23:58:50 DEBUG::Reordering data/metadata to use same sample ordering
+2023-02-23 23:58:50 INFO::Formula for fixed effects: expr ~  Confinement + Time_point
+2023-02-23 23:58:50 INFO::Filter data based on min abundance and min prevalence
+2023-02-23 23:58:50 INFO::Total samples in data: 15
+2023-02-23 23:58:50 INFO::Min samples required with min abundance for a feature not to be filtered: 1.500000
+2023-02-23 23:58:50 INFO::Total filtered features: 0
+2023-02-23 23:58:50 INFO::Filtered feature names from abundance and prevalence filtering:
+2023-02-23 23:58:50 INFO::Total filtered features with variance filtering: 0
+2023-02-23 23:58:50 INFO::Filtered feature names from variance filtering:
+2023-02-23 23:58:50 INFO::Running selected normalization method: TSS
+2023-02-23 23:58:50 INFO::Applying z-score to standardize continuous metadata
+2023-02-23 23:58:50 INFO::Running selected transform method: LOG
+2023-02-23 23:58:50 INFO::Running selected analysis method: LM
+2023-02-23 23:58:50 INFO::Fitting model to feature number 1, General_Stress_Response_and_Stationary_Phase_Response
+2023-02-23 23:58:50 INFO::Fitting model to feature number 2, Stress_Response
+2023-02-23 23:58:50 INFO::Fitting model to feature number 3, Virulence
+2023-02-23 23:58:50 INFO::Fitting model to feature number 4, Virulence_Disease_and_Defense
+2023-02-23 23:58:50 INFO::Counting total values for each feature
+2023-02-23 23:58:50 INFO::Writing residuals to file Comparison_L2_L3_MaAsLin2_timepoint_confinement_metagenomics_selected_functions/residuals.rds
+2023-02-23 23:58:50 INFO::Writing fitted values to file Comparison_L2_L3_MaAsLin2_timepoint_confinement_metagenomics_selected_functions/fitted.rds
+2023-02-23 23:58:50 INFO::Writing all results to file (ordered by increasing q-values): Comparison_L2_L3_MaAsLin2_timepoint_confinement_metagenomics_selected_functions/all_results.tsv
+2023-02-23 23:58:50 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Comparison_L2_L3_MaAsLin2_timepoint_confinement_metagenomics_selected_functions/significant_results.tsv
+2023-02-23 23:58:50 INFO::Writing heatmap of significant results to file: Comparison_L2_L3_MaAsLin2_timepoint_confinement_metagenomics_selected_functions/heatmap.pdf
+2023-02-23 23:58:50 INFO::Writing association plots (one for each significant association) to output folder: Comparison_L2_L3_MaAsLin2_timepoint_confinement_metagenomics_selected_functions
+2023-02-23 23:58:50 INFO::Plotting associations from most to least significant, grouped by metadata
+2023-02-23 23:58:50 INFO::Plotting data for metadata number 1, Confinement
+2023-02-23 23:58:50 INFO::Creating boxplot for categorical data, Confinement vs General_Stress_Response_and_Stationary_Phase_Response
+2023-02-23 23:58:50 INFO::Creating boxplot for categorical data, Confinement vs Virulence_Disease_and_Defense
+2023-02-23 23:58:51 INFO::Plotting data for metadata number 2, Time_point
+2023-02-23 23:58:51 INFO::Creating scatter plot for continuous data, Time_point vs Stress_Response
+2023-02-23 23:58:51 DEBUG::`geom_smooth()` using formula = 'y ~ x'

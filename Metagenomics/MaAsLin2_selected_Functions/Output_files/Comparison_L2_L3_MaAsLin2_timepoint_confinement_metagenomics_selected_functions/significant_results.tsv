@@ -1,0 +1,4 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+General_Stress_Response_and_Stationary_Phase_Response	Confinement	Level_3	-0.462678487222263	0.177554011744774	15	15	0.0229769220234483	0.127994284362175
+Stress_Response	Time_point	Time_point	-0.0567135852791571	0.0233829021722288	15	15	0.0319985710905437	0.127994284362175
+Virulence_Disease_and_Defense	Confinement	Level_3	-0.755738916891101	0.406010172234962	15	15	0.0873550860622515	0.232946896166004

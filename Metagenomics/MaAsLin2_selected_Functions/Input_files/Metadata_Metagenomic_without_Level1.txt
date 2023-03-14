@@ -1,0 +1,16 @@
+sampleID	label	Detailed_location	Room_location	Department	Study	Time_point	Confinement
+ICUot1P75	ICUot1P75	Waiting_area_floor	Waiting_area	ICU	Resistome	1	Level_3
+ICUot1P83	ICUot1P83	Nurses_station_floor	Nurses_station	ICU	Resistome	1	Level_3
+ICUot2P88	ICUot2P88	Waiting_area_floor	Waiting_area	ICU	Resistome	2	Level_3
+ICUot2P96	ICUot2P96	Nurses_station_floor	Nurses_station	ICU	Resistome	2	Level_3
+ICUot3P101	ICUot3P101	Waiting_area_floor	Waiting_area	ICU	Resistome	3	Level_3
+ICUot3P109	ICUot3P109	Nurses_station_floor	Nurses_station	ICU	Resistome	3	Level_3
+ICUt1P13	ICUt1P13	Examination_room_floor	Examination_room	ICU	Resistome	1	Level_2
+ICUt1P24	ICUt1P24	2_bed_patient_room_floor	2_bed_patient_room	ICU	Resistome	1	Level_2
+ICUt1P7	ICUt1P7	Isolation_room_floor	Isolation_room	ICU	Resistome	1	Level_2
+ICUt2P31	ICUt2P31	Isolation_room_floor	Isolation_room	ICU	Resistome	2	Level_2
+ICUt2P37	ICUt2P37	Examination_room_floor	Examination_room	ICU	Resistome	2	Level_2
+ICUt2P48	ICUt2P48	2_bed_patient_room_floor	2_bed_patient_room	ICU	Resistome	2	Level_2
+ICUt3P55	ICUt3P55	Isolation_room_floor	Isolation_room	ICU	Resistome	3	Level_2
+ICUt3P61	ICUt3P61	Examination_room_floor	Examination_room	ICU	Resistome	3	Level_2
+ICUt3P72	ICUt3P72	2_bed_patient_room_floor	2_bed_patient_room	ICU	Resistome	3	Level_2
