@@ -13,7 +13,7 @@ Data tables:
 - Abricate output -> for CARD, PlasFlow
 - MEGAN taxonomy output: taxonomy feature table, metadatafile and taxonomy file (after SRS                 normalization)
 - MEGAN function output -> function feature table, metadatafile and SEED functions (after SRS             normalization)
-- MAGE -> EggNOG output, COG map, COG map selected functions metagenomes, COG relative abundance table and metadatafile 
+- MAGE -> EggNOG output, COG map, COG map selected functions metagenomes, COG relative abundance table and metadatafile, alpha   and beta diversity plots 
 - GRiD -> GRiD output file and metadata file
 - MaAsLin -> statistical output
 - good quality MAGs -> fasta files
