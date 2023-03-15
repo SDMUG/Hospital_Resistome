@@ -1,0 +1,11 @@
+COGs IDS	COG_Ids	func	name
+COG0706	COG0706	M	"Membrane protein insertase Oxa1/YidC/SpoIIIJ, required for the localization of integral membrane proteins"
+COG0841	COG0841	V	Multidrug efflux pump subunit AcrB
+COG1292	COG1292	M	Choline-glycine betaine transporter
+COG1566	COG1566	V	Multidrug resistance efflux pump
+COG1633	COG1633	P	Rubrerythrin
+COG1966	COG1966	T	Carbon starvation protein CstA
+COG2059	COG2059	P	Chromate transport protein ChrA
+COG2132	COG2132	D	Multicopper oxidase with three cupredoxin domains (includes cell division protein FtsP and spore coat protein CotA)
+COG2367	COG2367	V	Beta-lactamase class A
+COG3965	COG3965	P	"Predicted Co/Zn/Cd cation transporter, cation efflux family"
